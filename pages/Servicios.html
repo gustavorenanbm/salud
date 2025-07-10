@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/estilos.css" />
+    <!--SCRIPT DE TAILWIND-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!--SCRIPT DE flowbite-->
+    <script src="https://unpkg.com/flowbite@2.3.0/dist/flowbite.min.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body class="fondo">
+    <nav class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="/pages/indice.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="/imagenes/Logo Youtube.png" class="h-8" alt="Logo" />
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Salud Laboral Creando una Cultura</span>
+    </a>
+    <button data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
+      <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+        <li>
+          <a href="/pages/indice.html" class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Inicio</a>
+        </li>
+        <li>
+          <a href="/pages/nosotros.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Nosotros</a>
+        </li>
+        <li>
+          <a href="/pages/Servicios.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Servicios</a>
+        </li>
+        <li>
+          <a href="/pages/contacto.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><br>
+    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+      <!-- Carousel wrapper -->
+       <h1 style="text-align: center; font-weight: bold; font-size: 40px;">Nuestras Capacitaciones</h1>
+      <div class="relative h-[800px] overflow-hidden rounded-lg md:h-[800px]">
+        <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          
+            <img
+            src="/imagenes/capacitacion 1.jpg"
+            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt="capacitacion" width="800" height="600"
+          />
+          <!--TEXTO INTERNO DE FOTOS -->
+          <div class="absolute top-10 left-10 text-black text-3xl font-bold">
+            CAPACITACIONES
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img
+            src="/imagenes/apoyo psicológico.jpg"
+            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt="Apoyo Psicológico" width="800" height="600"
+          />
+
+          <!--TEXTO INTERNO DE FOTOS -->
+          <div class="absolute top-10 left-10 text-black text-3xl font-bold">
+            DESCARGAS EMOCIONALES
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img
+            src="/imagenes/pausas de trabajo.jpg"
+            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt="pausas de trabajo" width="800" height="600"
+          />
+
+          <!--TEXTO INTERNO DE FOTOS -->
+          <div class="absolute top-10 left-10 text-black text-3xl font-bold">
+            PAUSAS DE TRABAJO
+          </div>
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img
+            src="/imagenes/VIH.jpg"
+            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt="VIH/SIDA" width="800" height="600"
+          />
+
+          <!--TEXTO INTERNO DE FOTOS -->
+          <div class="absolute top-10 left-10 text-black text-3xl font-bold">
+            PROGRAMAS VIH-PSICOSOCIAL-VIOLENCIA EN LOS ESPACIOS LABORALES
+          </div>
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img
+            src="/imagenes/estres.jpg"
+            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt="estres" width="800" height="600"
+          />
+
+          <!--TEXTO INTERNO DE FOTOS -->
+          <div class="absolute top-10 left-10 text-black text-3xl font-bold">
+            TÉCNICAS DE MANEJO DEL ESTRÉS
+          </div>
+        </div>
+      </div>
+      <!-- Slider indicators -->
+      <div
+        class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse"
+      >
+        <button
+          type="button"
+          class="w-3 h-3 rounded-full"
+          aria-current="true"
+          aria-label="Slide 1"
+          data-carousel-slide-to="0"
+        ></button>
+        <button
+          type="button"
+          class="w-3 h-3 rounded-full"
+          aria-current="false"
+          aria-label="Slide 2"
+          data-carousel-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          class="w-3 h-3 rounded-full"
+          aria-current="false"
+          aria-label="Slide 3"
+          data-carousel-slide-to="2"
+        ></button>
+        <button
+          type="button"
+          class="w-3 h-3 rounded-full"
+          aria-current="false"
+          aria-label="Slide 4"
+          data-carousel-slide-to="3"
+        ></button>
+        <button
+          type="button"
+          class="w-3 h-3 rounded-full"
+          aria-current="false"
+          aria-label="Slide 5"
+          data-carousel-slide-to="4"
+        ></button>
+      </div>
+      <!-- Slider controls -->
+      <button
+        type="button"
+        class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        data-carousel-prev
+      >
+        <span
+          class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+        >
+          <svg
+            class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 6 10"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M5 1 1 5l4 4"
+            />
+          </svg>
+          <span class="sr-only">Previous</span>
+        </span>
+      </button>
+      <button
+        type="button"
+        class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        data-carousel-next
+      >
+        <span
+          class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+        >
+          <svg
+            class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 6 10"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m1 9 4-4-4-4"
+            />
+          </svg>
+          <span class="sr-only">Next</span>
+        </span>
+      </button>
+    </div>
+
+    <!--TARJETAS INFORMATIVAS 1-->
+
+     <!--TARJETAS INFORMATIVAS-->
+        <div class="contenedorResponsive">
+            <!--PRIMERA TARJETA-->
+        
+             <div>   
+                
+            <a href="#" class="class="flex flex-col items-center bg-white border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+">
+            <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="/imagenes/VIH.jpg" alt="VIH">
+                <div class="flex flex-col justify-between p-4 leading-normal">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">VIH/SIDA:</h5>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Código de Trabajo
+                Art. 42 numeral 33:
+                El empleador tiene la obligación de implementar acciones de prevención y promoción de la salud, incluyendo capacitaciones sobre enfermedades transmisibles como el VIH/SIDA.
+
+                Art. 46:
+                Prohíbe expresamente la discriminación laboral por enfermedades como el VIH/SIDA..</p>
+                </div>
+            </a>
+            </div>
+        <div>
+            <!--SEGUNDA TARJETA-->
+           
+<a href="#" class="class="flex flex-col items-center bg-white border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="/imagenes/violenciatrabajo.jpg" alt="violenciatrabajo">
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Violencia en los Espacios Laborales</h5>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">1. Código de Trabajo (Reformado por la Ley Orgánica Reformatoria de 2017 y vigente en 2025)
+                Art. 42 numeral 33:
+                Obliga al empleador a garantizar ambientes laborales saludables, libres de violencia, acoso laboral y discriminación.
+                Debe implementar programas de capacitación preventiva sobre violencia laboral y acoso..</p>
+    </div>
+</a>
+
+        </div>
+
+
+        <div>
+            <!--TERCERA TARJETA-->
+            
+<a href="#" class="class="flex flex-col items-center bg-white border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="/imagenes/salud sexual y reproductiva.jpg" alt="salud sexual y reproductiva">
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Salud Sexual y Reproductiva:</h5>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Norma Técnica de SST (Acuerdo MDT-2021-219)	Incluir la salud sexual y reproductiva en el Plan Anual de Capacitación (en riesgos psicosociales y promoción de la salud)..</p>
+    </div>
+</a>
+
+        </div>
+
+
+        <div>
+            <!--CUARTA TARJETA-->
+          
+<a href="#" class="class="flex flex-col items-center bg-white border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="/imagenes/riesgo psicosocial.jpg" alt="riesgopsicosocial">
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Los Riesgos Psicosociales: </h5>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Reglamento del Seguro General de Riesgos del Trabajo (IESS)
+            bliga a evaluar y prevenir riesgos psicosociales como parte de la gestión integral de la seguridad y salud en el trabajo..</p>
+    </div>
+</a>
+
+        </div>
+</div>
+
+    <!--SEGUNDO CARRUSEL EVALUACIONES OCUPACIONALES-->
+
+    
+<h1 style="font-size: 40px; font-weight: bold; text-align: center;">Nuestras Evaluaciones Ocupacionales</h1>
+<div id="controls-carousel" class="relative w-full" data-carousel="static">
+    <!-- Carousel wrapper -->
+     
+    <div class="relative h-96 overflow-hidden rounded-lg md:h-[600]">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/imagenes/evaluacionmedica.jpg" class="w-full h-full object-cover" alt="Evaluación Médica Ocupacional">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+            <img src="/imagenes/antropometría.jpg" class="w-full h-full object-cover" alt="antropometría">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/imagenes/examen musculoesquelético.jpg" class="w-full h-full object-cover">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/imagenes/radiografía.jpg" class="w-full h-full object-cover" alt="radiografía">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/imagenes/saturación.jpg" class="w-full h-full object-cover" alt="saturación">
+        </div>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+<!--TARJETAS DE EVALUACIONES MÉDICAS-->
+
+<div class="contenedorResponsive">
+<!--Primera tajeta de Evalución Médica-->
+<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+    <a href="https://grupoconsesa.com.ec/evaluacion-pre-ocupacional/" target="_blank">
+        <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+    </a>
+    <div class="p-5">
+        <a href="">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">EVALUACIONES PREOCUPACIONES</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Se realizan antes del ingreso del trabajador/a comience sus actividades laborales, su finalidades
+            buscar a la persona más idónea, para trabajar que no se enferme y que le produzca el más alto rendimiento a la productividad de la empresa .</p>
+        <a href="https://grupoconsesa.com.ec/evaluacion-pre-ocupacional/ " target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Read more
+             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="https://grupoconsesa.com.ec/evaluacion-pre-ocupacional/" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+        </a>
+    </div>
+</div>
+
+<!--Segunda tajeta de Evalución Médica-->
+<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+    <a href="https://www.sanitco.com/blog/nwarticle/100/3/examenes-medicos-posteriores-a-la-ocupacion-una-guia-completa">
+        <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+    </a>
+    <div class="p-5">
+        <a href="https://www.sanitco.com/blog/nwarticle/100/3/examenes-medicos-posteriores-a-la-ocupacion-una-guia-completa">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">EVALUACIONES POSTOCUPACIONALES</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Se realizan al finalizar la relación laboral, y la finalidad es demostrar que el trabajador/a recibió
+            cuidados adecuados en la empresa para evitar que se enferme, adicional es un respaldo de como egresa el trabajador/a para evitar demandas a la empresa.</p>
+        <a href="https://www.sanitco.com/blog/nwarticle/100/3/examenes-medicos-posteriores-a-la-ocupacion-una-guia-completa" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Read more
+             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="https://www.sanitco.com/blog/nwarticle/100/3/examenes-medicos-posteriores-a-la-ocupacion-una-guia-completa" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+        </a>
+    </div>
+</div>
+
+
+<!--Tercera tajeta de Evalución Médica-->
+<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+    <a href="https://grupoconsesa.com.ec/evaluacion-periodica/">
+        <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+    </a>
+    <div class="p-5">
+        <a href="https://grupoconsesa.com.ec/evaluacion-periodica/">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">EVALUACIONES PERIÓDICAS</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Se realizan anualmente y permite identificar si un trabajador/a esta desarrollando una patología de presunto origen profesional, 
+            permite actuar evitando el desarrollo y evitar demandas.</p>
+        <a href="https://grupoconsesa.com.ec/evaluacion-periodica/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Read more
+             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+        </a>
+    </div>
+</div>
+
+<!--Cuarta tajeta de Evalución Médica-->
+<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+    <a href="https://grupoconsesa.com.ec/evaluacion-de-reintegro/">
+        <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+    </a>
+    <div class="p-5">
+        <a href="https://grupoconsesa.com.ec/evaluacion-de-reintegro/">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">EVALUACIÓN DE REINTEGRO</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Permite una evaluación adecuada del trabajador/a luego de una larga ausencia del trabajo, y así
+            brindar las mejores condiciones para que labore, con las respectivas restricciones.</p>
+        <a href="https://grupoconsesa.com.ec/evaluacion-de-reintegro/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Read more
+             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+        </a>
+    </div>
+</div>
+
+<!--Quinta tajeta de Evalución Médica-->
+<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+    <a href="https://www.medvidasalud.com/blog/examen-medico-preocupacional-que-es-en-que-consiste/">
+        <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+    </a>
+    <div class="p-5">
+        <a href="https://www.medvidasalud.com/blog/examen-medico-preocupacional-que-es-en-que-consiste/">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">EVALUACIONES DE REINGRESO</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Permite considerar los antecedentes de un trabajador/a que ya laboro en la empresa o institución y determinar 
+            si su estado de salud actual es adecuado para el mismo trabajo.</p>
+        <a href="https://www.medvidasalud.com/blog/examen-medico-preocupacional-que-es-en-que-consiste/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Read more
+             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+        </a>
+    </div>
+</div>
+</div>
+</body>
+
+<footer class="bg-white rounded-lg shadow-sm dark:bg-gray-900 m-4">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <a href="/pages/indice.html" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                <img src="/imagenes/Logo Youtube.png" class="h-8" alt="logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Salud Laboral Creando una Cultura</span>
+            </a>
+            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">Nosotros</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">Servicios</a>
+                </li>
+                
+                <li>
+                    <a href="#" class="hover:underline">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="/pages/indice.html" class="hover:underline">Salud Laboral Creando una Cultura</a>. Todos los derechos reservados.</span>
+    </div>
+</footer>
+
+</html>
